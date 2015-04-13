@@ -5,23 +5,34 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css"></link>
 	</head>
 	<body>
-	<header>
-		<nav>
-			<aside>
-				<div>E</div>
-			</aside>
-			<div>
-			<input type="text" placeholder="Search.."></input>
-			</div>
-			<aside>
-			<div>
-				<select>
+		<header>
+			<div class="search-bar">
+				<input type="search" placeholder="Search.."></input>
+				<select class="user-name">
 					<option>Aaron Sananes</option>
-				</select>
-			</div>
+				</select>	
+			</div>		
+		</header>
+		<main>
+			<aside class="menu">
+				<nav>
+					<ul class="top-menu" style="list-style-type:none">
+					  <li class="home">Home</li>
+					  <li class="menu">Menu</li>
+					  <li class="calender">Cal</li>
+					  <li class="user">User</li>
+					  <li class="notification">Notification</li>
+					</ul>
+					<ul class="bottom-menu" style="list-style-type:none">
+					  <li class="clock">schedule</li>
+					  <li class="information">Wifi</li>
+					  <li class="settings">Settings</li>
+					</ul>
+				</nav>
 			</aside>
-		</nav>
-	</header>
-		<h1 class="events-heading">Upcoming Events</h1>
+			<div id="content">
+				<h1 class="events-heading">Upcoming Events</h1>	
+			</div>
+		</main>
 	</body>
 </html>

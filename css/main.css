@@ -4,9 +4,60 @@
 	box-sizing:border-box;
 }
 body{
-
+	color: whitesmoke;
+	margin: 0px;
+}
+header{
+	margin: 0px;
+	background-color: gray;
+	background-image: url("../css/resources/internet_explorer.png");
+	background-position: 5px 5px 5px;
+	background-repeat: no-repeat;
+	height: 50px;
+}
+.search-bar{
+	padding-top: 15px;
+	margin-left: 200px;
 }
 .events-heading{
 	color:red;
 	font-family: 'Quicksand', sans-serif;
+}
+.user-name{
+	border: none;
+	outline: none;
+	background: gray;
+	float: right;
+	color: whitesmoke;
+	font-size: 14px;
+}
+input[type="search"]{
+	border: none;
+	background: gray;
+	outline: none;
+	border-bottom: 1px solid lightgray;
+	float: left;
+	margin-top: 10px;
+	width: 25%;
+	color: whitesmoke;
+	font-size: 14px;
+}
+.home{
+	background-image: url("../css/resources/home.png");
+	background-position: 100px 100px;
+}
+nav{
+	background-color: red;
+	height: 100%;
+	float: left;
+	width: 10%;
+}
+.content{
+	width: 90%;
+	height: 100%;
+	float: right;
+	background-color: white;
+}
+.events-heading{
+	margin: 0px;
 }
