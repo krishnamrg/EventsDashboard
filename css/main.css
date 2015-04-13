@@ -45,15 +45,18 @@ input[type="search"]{
 .home{
 	background-image: url("../css/resources/home.png");
 	background-position: 100px 100px;
-	background: white;
+}
+.menu-icon{
+	background: white;	
   	border: 1px solid white;
   	border-radius: 35px;
+  	margin: 15px;
 }
 nav{
 	background-color: red;
 	height: 100%;
 	float: left;
-	width: 5%;
+	width: 7%;
 	top: 10;
 }
 .nav-image{
