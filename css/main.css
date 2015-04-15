@@ -97,9 +97,20 @@ input[type="search"]{
 }
 .tiles-content{
 	float: left;
+	margin-left: 2%;
+  	margin-right: 2%;
+}
+.wm-tile{
+	float: left;
+	width: 40%;
+}
+.four-tiles{
+  float: right;
+  width: 59%;
+  text-align: center;
 }
 .item {
-  width: 220px;
+  width: 300px;
   margin: 10px;
   float: left;
 }
@@ -111,4 +122,20 @@ input[type="search"]{
 }
 .color-green{
 	background-color: green;
+}
+.autodesk-img{
+	width: 500px;
+}
+.bottom-content-tiles{
+	display: inline-block;
+}
+.top-right-img{
+	width: 300px;
+  	height: 150px;
+  	padding-left: 2%;
+}
+.footer-img{
+	width: 23%;
+  height: 25%;
+  margin: 10px;
 }
